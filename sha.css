@@ -1,0 +1,10 @@
+#inputtext{
+    resize: none;
+    width: 500px;
+    height: 100px;
+}
+#outputtext{
+    resize: none;
+    width: 500px;
+    height: 100px;
+}

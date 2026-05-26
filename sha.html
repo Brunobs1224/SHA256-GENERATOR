@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sha.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1><em>SHA256</em></h1>
+    <p>SHA-256 is a cryptographic hash function that produces a 256-bit (32-byte) hash value. It is not a cryptographic encryption algorithm, but rather a one-way function that takes an input and produces a fixed-size output. The output is typically represented as a hexadecimal string. SHA-256 is widely used in various applications, including data integrity verification, digital signatures, and password hashing. It is part of the SHA-2 family of hash functions, which also includes SHA-224, SHA-384, and SHA-512.<br><br>The most important: SHA-256 can only walk in one way, meaning that it is computationally infeasible to reverse the process and retrieve the original input from the hash output. This makes it a secure choice for hashing sensitive data, such as passwords, as it provides a strong level of protection against brute-force attacks and other forms of cryptographic attacks.     
+    </p>
+    <h2>Digite aqui seu texto:</h2>
+    <textarea type="text" id="inputtext" placeholder="Digite aqui" maxlength="1000"></textarea>
+    <h2>Hash:</h2>
+    <textarea type="text" id="outputtext" placeholder="Hash" readonly></textarea>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <script src="sha.js"></script>
+</body>
+</html>

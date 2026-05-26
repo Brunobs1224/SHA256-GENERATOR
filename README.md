@@ -1,0 +1,2 @@
+# SHA256-GENERATOR
+Generator SHA 256
